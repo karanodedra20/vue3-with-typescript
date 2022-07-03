@@ -92,4 +92,15 @@ header img {
 header h1 {
   font-size: 3em;
 }
+
+@media only screen and (max-width: 480px) {
+  header .order {
+    display: flex;
+    flex-direction: column;
+  }
+
+  button {
+    margin: 5px 0;
+  }
+}
 </style>
